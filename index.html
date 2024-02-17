@@ -52,3 +52,4 @@
         this.y += this.vy;
         
         if (this.x - this.radius < 0 || this.x + this.radius > canvas.width) {
+          this.vx = -this.vx;
